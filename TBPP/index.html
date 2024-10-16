@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        body{
+            margin: 0;
+        }
+        .Navbar{
+            width: 100%;
+            display: flex;
+            position: fixed;
+            background-color: white;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            font-weight: bold;
+            font-size: larger;
+            color: grey;
+        }
+
+        .logo{
+            height: 500px;
+        }
+        .content{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(183, 181, 181, 0.656);
+            background-image: url('https://s1.cdn.autoevolution.com/images/news/gallery/custom-840-hp-dodge-challenger-rs-is-a-two-tone-gloss-satin-murdered-out-demon_13.jpg');
+        }
+        .content h1{
+            background-color: grey;
+            font-size: 2em;
+        }
+
+        .Aboutme{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: grey;
+            margin-top: 40px;
+            width: 80%;
+            margin: auto;
+            line-height: 30px;
+        }
+
+        .myname{
+            
+            width: 75%;
+            display: flex;
+            margin: auto;
+            margin-top: 60px;
+        }
+        .myname .image{
+            width: 40%;
+            height: 90%;
+        }
+        .image img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        .skill{
+            width: 75%;
+            margin: auto;
+            margin-top: 60px;
+        }
+
+        .plus{
+            background-color: rgb(76, 76, 76);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;
+            color: white;
+        }
+
+        .mywork{
+            width: 75%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: grey;
+            margin: auto;
+            margin-top: 60px;
+        }
+        .image{
+            height: 400px;
+            width: 100%;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .image img{
+            width: 24%;
+            height: 40%;
+            object-fit: cover;
+        }
+        
+        .work{
+            width: 75%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="Navbar">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Portfolio</li>
+            <li>Contact</li>
+        </ul>
+        <div class="search"></div>
+    </div>
+    <div class="logo">
+        <div class="content">
+            <h1>My Website Logo</h1>
+        </div>
+    </div>
+    
+    <div class="Aboutme">
+        <h1>About me</h1>
+        <p>I Love Nothing</p>
+        <p style="font-weight: bold;">We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <div class="myname">
+        <div class="image">
+            <img src="https://s1.cdn.autoevolution.com/images/news/gallery/custom-840-hp-dodge-challenger-rs-is-a-two-tone-gloss-satin-murdered-out-demon_13.jpg" alt="">
+        </div>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa ratione exercitationem voluptatibus sit eius provident suscipit animi tenetur tempora et, aliquid tempore, reprehenderit laboriosam dolor vero excepturi. Ipsum, illum voluptas!
+        </p>
+    </div>
+
+
+    <div class="skill">
+        <div style="margin: auto;"><h1>I am realy good at</h1></div>
+        <h3>photography</h3>
+        <div style="height: 40px; width: 100%; background-color: rgb(208, 205, 205);">
+            <div style="height: 100%; width: 90%; background-color: grey;"></div>
+        </div>
+        <h3>Web Design</h3>
+        <div style="height: 40px; width: 100%; background-color: rgb(208, 205, 205);">
+            <div style="height: 100%; width: 85%; background-color: grey;"></div>
+        </div>
+        <h3>Photoshop</h3>
+        <div style="height: 40px; width: 100%; background-color: rgb(208, 205, 205);">
+            <div style="height: 100%; width: 70%; background-color: grey;"></div>
+        </div>
+    </div>
+
+    <div class="plus">
+        <div style="width: 75%; display: flex; justify-content: space-between;">
+            <div>
+                <p><span style="font-size: 3rem;">14+</span><br>partners</p>
+            </div>
+            <div>
+                <p><span style="font-size: 3rem;">55+</span><br>Project Done</p>
+            </div>
+            <div>
+                <p><span style="font-size: 3rem;">89+</span><br>Happy client</p>
+            </div>
+            <div>
+                <p><span style="font-size: 3rem;">150+</span><br>Meeting</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="logo" style="height: 300px; background-image: url('https://s1.cdn.autoevolution.com/images/news/gallery/custom-840-hp-dodge-challenger-rs-is-a-two-tone-gloss-satin-murdered-out-demon_13.jpg');">
+        <div class="content">
+            <h1>Portfolio</h1>
+        </div>
+    </div>
+
+    <div class="mywork">
+        <h1>My Work</h1>
+        <p>Here are some of my latest lorem work ipsum tipsum.
+            Click on the images to make them bigger</p>
+        <div class="image">
+            <img src="https://s1.cdn.autoevolution.com/images/news/gallery/custom-840-hp-dodge-challenger-rs-is-a-two-tone-gloss-satin-murdered-out-demon_13.jpg" alt="">
+            <img src="https://s1.cdn.autoevolution.com/images/news/gallery/custom-840-hp-dodge-challenger-rs-is-a-two-tone-gloss-satin-murdered-out-demon_13.jpg" alt="">
+            <img src="https://s1.cdn.autoevolution.com/images/news/gallery/custom-840-hp-dodge-challenger-rs-is-a-two-tone-gloss-satin-murdered-out-demon_13.jpg" alt="">
+            <img src="https://s1.cdn.autoevolution.com/images/news/gallery/custom-840-hp-dodge-challenger-rs-is-a-two-tone-gloss-satin-murdered-out-demon_13.jpg" alt="">
+            <img src="https://s1.cdn.autoevolution.com/images/news/gallery/custom-840-hp-dodge-challenger-rs-is-a-two-tone-gloss-satin-murdered-out-demon_13.jpg" alt="">
+            <img src="https://s1.cdn.autoevolution.com/images/news/gallery/custom-840-hp-dodge-challenger-rs-is-a-two-tone-gloss-satin-murdered-out-demon_13.jpg" alt="">
+            <img src="https://s1.cdn.autoevolution.com/images/news/gallery/custom-840-hp-dodge-challenger-rs-is-a-two-tone-gloss-satin-murdered-out-demon_13.jpg" alt="">
+            <img src="https://s1.cdn.autoevolution.com/images/news/gallery/custom-840-hp-dodge-challenger-rs-is-a-two-tone-gloss-satin-murdered-out-demon_13.jpg" alt="">
+        </div>
+        <br>
+        <button style="padding: 15px; background-color: grey; color: black; border: 0;">Load More</button>
+    </div>
+
+    <div style="margin-top: 60px; height: 250px;" class="logo">
+        <div class="content" style="background-color: rgba(173, 173, 173, 0);">
+            <h1>Contact</h1>
+        </div>
+    </div>
+
+    <div class="work">
+        <h1>where do I work</h1>
+        <div style="display: flex; justify-content: space-around;">
+            <div>
+                <img style="width: 200px; height: 200px; object-fit: cover;" src="https://s1.cdn.autoevolution.com/images/news/gallery/custom-840-hp-dodge-challenger-rs-is-a-two-tone-gloss-satin-murdered-out-demon_13.jpg" alt="">
+            </div>
+            <div style="display: flex; flex-direction: column; ">
+                <div style="color: grey; font-weight: bold; margin-bottom: 15px;">
+                    Chicago, US,<br>
+                    Phone: 999999999999999,<br>
+                    Email: email.gmail.com
+                </div>
+                <div style="width: 60%;">
+                    <input style="width: 45%; height: 30px;" type="text" placeholder="Name">
+                    <input style="width: 45%; height: 30px; float: right;" type="text" placeholder="Place">
+                    <input style="width: 100%; height: 30px; margin-top: 15px;" type="text" placeholder="Email">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>3
